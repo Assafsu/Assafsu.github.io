@@ -3,7 +3,7 @@ define(['pipAPI', 'https://assafsu.github.io/secondscript.js'], function(APICons
 		//hello world
 	return iatExtension({
 		category1 : {
-			name : 'Black people', //Will appear in the data.
+			name : 'RED people', //Will appear in the data.
 			title : {
 				media : {word : 'Black people'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
