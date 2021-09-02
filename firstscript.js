@@ -39,7 +39,7 @@ define(['pipAPI', 'https://assafsu.github.io/secondscript.js'], function(APICons
 		},	
 
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
+			image : 'https://assafsu.github.io/images/'
 		} 
 	});
 });
