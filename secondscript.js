@@ -33,9 +33,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			//When scoring, we will consider the compatible condition the pairing condition that requires response with one key to [category1,attribute1] and the other key to [category2,attribute2]
 			category1 : {
-				name : 'Black peoples', //Will appear in the data and in the default feedback message.
+				name : 'Old people', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'Black peoples'}, //Name of the category presented in the task.
+					media : {word : 'זקנים'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
@@ -51,9 +51,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				stimulusCss : {color:'#336600','font-size':'2.3em'}
 			},
 			category2 :	{
-				name : 'White peoples', //Will appear in the data and in the default feedback message.
+				name : 'Young people', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'White peoples'}, //Name of the category presented in the task.
+					media : {word : 'צעירים'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
@@ -72,19 +72,19 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			{
 				name : 'Bad words',
 				title : {
-					media : {word : 'Bad words'},
+					media : {word : 'מילים שליליות'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'awful'},
-					{word: 'failure'},
-					{word: 'agony'},
-					{word: 'hurt'},
-					{word: 'horrible'},
-					{word: 'terrible'},
-					{word: 'nasty'},
-					{word: 'evil'}
+					{word: 'כאב'},
+					{word: 'כשלון'},
+					{word: 'מגעיל'},
+					{word: 'רשע'},
+					{word: 'רוע'},
+					{word: 'נורא'},
+					{word: 'גרוע'},
+					{word: 'בחילה'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -93,19 +93,19 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			{
 				name : 'Good words',
 				title : {
-					media : {word : 'Good words'},
+					media : {word : 'מילים חיוביות'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'laughter'},
-					{word: 'happy'},
-					{word: 'glorious'},
-					{word: 'joy'},
-					{word: 'wonderful'},
-					{word: 'peace'},
-					{word: 'pleasure'},
-					{word: 'love'}
+					{word: 'הנאה'},
+					{word: 'אושר'},
+					{word: 'שמחה'},
+					{word: 'אהבה'},
+					{word: 'עונג'},
+					{word: 'נהדרת'},
+					{word: 'צחוק'},
+					{word: 'נפלא'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -156,17 +156,17 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			fontColor : '#000000', //The default color used for printed messages.
 			
 			//Text and style for key instructions displayed about the category labels.
-			leftKeyText : 'Press "E" for', 
-			rightKeyText : 'Press "I" for', 
+			leftKeyText : 'מקש "E"', 
+			rightKeyText : 'מקש "I"', 
 			keysCss : {'font-size':'0.8em', 'font-family':'courier', color:'#000000'},
 			//Text and style for the separator between the top and bottom category labels.
-			orText : 'or', 
+			orText : 'או', 
 			orCss : {'font-size':'1.8em', color:'#000000'},
 			
 			instWidth : 99, //The width of the instructions stimulus
             
-			finalText : 'Press space to continue to the next task', 
-			finalTouchText : 'Touch the bottom green area to continue to the next task',
+			finalText : 'לחצו על מקש הרווח בכדי להמשיך למטלה הבאה', 
+			finalTouchText : 'לחצו על המקש הירוק בכדי להמשיך למטלה הבאה',
 
 			touchMaxStimulusWidth : '50%', 
 			touchMaxStimulusHeight : '50%', 
@@ -180,12 +180,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left finger on the <b>E</b> key for items that belong to the category <font color="#0000ff">leftAttribute.</font>' +
-				'<br/>Put a right finger on the <b>I</b> key for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
-				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
-				'Press the other key to continue.<br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>'+
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'הקישו באצבע שמאל על מקש <b>E</b> עבור פריטים ששייכים לקטגוריה <font color="#0000ff">leftAttribute.</font>' +
+				'<br/>הקישו באצבע ימין על מקש <b>I</b> עבור פריטים ששייכים לקטגוריה <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
+				'אם תבצעו טעות <font color="#ff0000"><b>X</b></font> אדום יופיע. ' +
+				'לחצו על המקש האחר כדי להמשיך<br/>' +
+				'<u>השיבו מהר ככל שאפשר אך היו מדויקים</u><br/><br/></p>'+
+				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להתחיל</font></p></div>',
 			instAttributePracticeTouch: [
 				'<div>',
 					'<p align="center">',
@@ -193,26 +193,23 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
-						'Put a left finger over the the <b>left</b> green area for items that belong to the category <font color="#0000ff">leftAttribute</font>.<br/>',
-						'Put a right finger over the <b>right</b> green area for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/>',
-						'Items will appear one at a time.<br/>',
-						'<br/>',
-						'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.',
+						'הקישו באצבע שמאל על מקש <b>E</b> עבור פריטים השייכים לקטגוריה <font color="#0000ff">leftAttribute</font>.<br/>',
+						'הקישו באצבע ימין על מקש <b>I</b>עבור פריטים השייכים לקטגוריה  <font color="#0000ff">rightAttribute</font>.<br/>',
+						'אם תבצעו טעות <font color="#ff0000"><b>X</b></font> אדום יופיע. לחצו על המקש האחר כדי להמשיך <u> השיבו מהר ככל האפשר אך היו מדויקים</u>',
 					'</p>',
-					'<p align="center">Touch the <b>lower </b> green area to start.</p>',
+					'<p align="center">לחצו למטה על האזור הירוק כדי להתחיל</p>',
 				'</div>'
 			].join('\n'),
 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left finger on the <b>E</b> key for items that belong to the category <font color="#336600">leftCategory</font>. ' +
-				'<br/>Put a right finger on the <b>I</b> key for items that belong to the category <font color="#336600">rightCategory</font>.<br/>' +
-				'Items will appear one at a time.<br/><br/>' +
-				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
-				'Press the other key to continue.<br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>'+
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				' הקישו באצבע שמאל על מקש <b>E</b> עבור פריטים השייכים לקטגוריה <font color="#336600">leftCategory</font>. ' +
+				'<br/>הקישו באצבע ימין על מקש <b>I</b><font color="#336600">rightCategory</font>.<br/>' +
+				'אם תבצעו טעות <font color="#ff0000"><b>X</b></font> אדום יופיע ' +
+				'לחצו על המקש האחר כדי להמשיך<br/>' +
+				'<u>השיבו מהר ככל האפשר אך היו מדויקים<br/><br/></p>'+
+				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</font></p></div>',
 			instCategoriesPracticeTouch: [
 				'<div>',
 					'<p align="center">',
