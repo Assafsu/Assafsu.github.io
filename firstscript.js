@@ -5,7 +5,7 @@ define(['pipAPI', 'https://assafsu.github.io/secondscript.js'], function(APICons
 		category1 : {
 			name : 'Old people', //Will appear in the data.
 			title : {
-				media : {word : 'Black people'}, //Name of the category presented in the task.
+				media : {word : 'זקנים'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -21,9 +21,9 @@ define(['pipAPI', 'https://assafsu.github.io/secondscript.js'], function(APICons
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'White people', //Will appear in the data.
+			name : 'Young people', //Will appear in the data.
 			title : {
-				media : {word : 'White people'}, //Name of the category presented in the task.
+				media : {word : 'צעירים'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
