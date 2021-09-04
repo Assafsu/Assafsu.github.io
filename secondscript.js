@@ -156,8 +156,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			fontColor : '#000000', //The default color used for printed messages.
 			
 			//Text and style for key instructions displayed about the category labels.
-			leftKeyText : 'מקש "E"', 
-			rightKeyText : 'מקש "I"', 
+			leftKeyText : '"E" מקש', 
+			rightKeyText : '"I" מקש', 
 			keysCss : {'font-size':'0.8em', 'font-family':'courier', color:'#000000'},
 			//Text and style for the separator between the top and bottom category labels.
 			orText : 'או', 
@@ -180,9 +180,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'הקישו באצבע שמאל על מקש <b>E</b> עבור פריטים ששייכים לקטגוריה <font color="#0000ff">leftAttribute.</font>' +
-				'<br/>הקישו באצבע ימין על מקש <b>I</b> עבור פריטים ששייכים לקטגוריה <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
-				'אם תבצעו טעות <font color="#ff0000"><b>X</b></font> אדום יופיע. ' +
+				'<b>E</b> הקישו באצבע שמאל על מקש <font color="#0000ff">leftAttribute.</font> עבור פריטים ששייכים לקטגוריה' +
+				'<br/> <b>I</b> הקישו באצבע ימין על מקש <font color="#0000ff">rightAttribute</font>עבור פריטים ששייכים לקטגוריה<br/><br/>' +
+				'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות' +
 				'לחצו על המקש האחר כדי להמשיך<br/>' +
 				'<u>השיבו מהר ככל שאפשר אך היו מדויקים</u><br/><br/></p>'+
 				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להתחיל</font></p></div>',
@@ -193,9 +193,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
-						'הקישו באצבע שמאל על מקש <b>E</b> עבור פריטים השייכים לקטגוריה <font color="#0000ff">leftAttribute</font>.<br/>',
-						'הקישו באצבע ימין על מקש <b>I</b>עבור פריטים השייכים לקטגוריה  <font color="#0000ff">rightAttribute</font>.<br/>',
-						'אם תבצעו טעות <font color="#ff0000"><b>X</b></font> אדום יופיע. לחצו על המקש האחר כדי להמשיך <u> השיבו מהר ככל האפשר אך היו מדויקים</u>',
+						' <b>E</b> הקישו באצבע שמאל על מקש <font color="#0000ff">leftAttribute</font>עבור פריטים השייכים לקטגוריה<br/>',
+						' <b>I</b> הקישו באצבע ימין על מקש <font color="#0000ff">rightAttribute</font>עבור פריטים השייכים לקטגוריה <br/>',
+						' אדום יופיע. לחצו על המקש האחר כדי להמשיך <font color="#ff0000"><b>X</b></font> אם תבצעו טעות  <u> השיבו מהר ככל האפשר אך היו מדויקים</u>',
 					'</p>',
 					'<p align="center">לחצו למטה על האזור הירוק כדי להתחיל</p>',
 				'</div>'
@@ -204,9 +204,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				' הקישו באצבע שמאל על מקש <b>E</b> עבור פריטים השייכים לקטגוריה <font color="#336600">leftCategory</font>. ' +
-				'<br/>הקישו באצבע ימין על מקש <b>I</b><font color="#336600">rightCategory</font>.<br/>' +
-				'אם תבצעו טעות <font color="#ff0000"><b>X</b></font> אדום יופיע ' +
+				'  <b>E</b> הקישו באצבע שמאל על מקש <font color="#336600">leftCategory</font>עבור פריטים השייכים לקטגוריה' +
+				'<br/> <b>I</b>הקישו באצבע ימין על מקש <font color="#336600">rightCategory</font> עבור פריטים השייכים לקטגוריה<br/>' +
+				'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות' +
 				'לחצו על המקש האחר כדי להמשיך<br/>' +
 				'<u>השיבו מהר ככל האפשר אך היו מדויקים<br/><br/></p>'+
 				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</font></p></div>',
