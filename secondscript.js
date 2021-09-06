@@ -33,7 +33,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			//When scoring, we will consider the compatible condition the pairing condition that requires response with one key to [category1,attribute1] and the other key to [category2,attribute2]
 			category1 : {
-				name : 'Old people', //Will appear in the data and in the default feedback message.
+				name : 'זקנים', //Will appear in the data and in the default feedback message.
 				title : {
 					media : {word : 'זקנים'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
@@ -51,7 +51,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				stimulusCss : {color:'#336600','font-size':'2.3em'}
 			},
 			category2 :	{
-				name : 'Young people', //Will appear in the data and in the default feedback message.
+				name : 'צעירים', //Will appear in the data and in the default feedback message.
 				title : {
 					media : {word : 'צעירים'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
@@ -70,7 +70,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute1 :
 			{
-				name : 'Bad words',
+				name : 'מילים שליליות',
 				title : {
 					media : {word : 'מילים שליליות'},
 					css : {color:'#0000FF','font-size':'1.8em'},
@@ -91,7 +91,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute2 :
 			{
-				name : 'Good words',
+				name : 'מילים חיוביות',
 				title : {
 					media : {word : 'מילים חיוביות'},
 					css : {color:'#0000FF','font-size':'1.8em'},
@@ -205,7 +205,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'  <b>E</b> הקישו באצבע שמאל על מקש <font color="#336600">leftCategory</font>עבור פריטים השייכים לקטגוריה' +
-				'<br/> <b>I</b>הקישו באצבע ימין על מקש <font color="#336600">rightCategory</font> עבור פריטים השייכים לקטגוריה<br/>' +
+				'<br/> <b>I</b> הקישו באצבע ימין על מקש <font color="#336600">rightCategory</font> עבור פריטים השייכים לקטגוריה<br/>' +
 				'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות' +
 				'לחצו על המקש האחר כדי להמשיך<br/>' +
 				'<u>השיבו מהר ככל האפשר אך היו מדויקים<br/><br/></p>'+
