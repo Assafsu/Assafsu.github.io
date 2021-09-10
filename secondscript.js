@@ -142,11 +142,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			remindError : true,
 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
-			'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
+			'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות ' +
 			'Press the other key to continue.<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
-			'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
+			'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות ' +
 			'Touch the other side to continue.<p/>',
 
 			errorCorrection : true, //Should participants correct error responses?
@@ -206,7 +206,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'  <b>E</b> הקישו באצבע שמאל על מקש <font color="#336600">leftCategory</font>עבור פריטים השייכים לקטגוריה' +
 				'<br/> <b>I</b> הקישו באצבע ימין על מקש <font color="#336600">rightCategory</font> עבור פריטים השייכים לקטגוריה<br/>' +
-				' לחצו על המקש האחר כדי להמשיך<br/> אדום יופיע<font color="#ff0000"><b>X</b></font>אם תבצעו טעות' +
+				' אדום יופיע. לחצו על המקש האחר כדי להמשיך<font color="#ff0000"><b>X</b></font>אם תבצעו טעות' +
 				'' +
 				'<u>השיבו מהר ככל האפשר אך היו מדויקים<br/><br/></p>'+
 				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</font></p></div>',
