@@ -3,7 +3,7 @@ define(['pipAPI', 'https://assafsu.github.io/secondscript.js'], function(APICons
 		//hello world
 	return iatExtension({
 		category1 : {
-			name : 'Old people', //Will appear in the data.
+			name : 'זקנים', //Will appear in the data.
 			title : {
 				media : {word : 'זקנים'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
@@ -21,7 +21,7 @@ define(['pipAPI', 'https://assafsu.github.io/secondscript.js'], function(APICons
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Young people', //Will appear in the data.
+			name : 'צעירים', //Will appear in the data.
 			title : {
 				media : {word : 'צעירים'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
