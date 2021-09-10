@@ -147,7 +147,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
 			'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות ' +
-			'Touch the other side to continue.<p/>',
+			'לחצו על המקש האחר כדי להמשיך<p/>',
 
 			errorCorrection : true, //Should participants correct error responses?
 			errorFBDuration : 500, //Duration of error feedback display (relevant only when errorCorrection is false)
@@ -193,8 +193,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
-						' <b>E</b> הקישו באצבע שמאל על מקש <font color="#0000ff">leftAttribute</font> עבור פריטים השייכים לקטגוריה זקנים<br/>',
-						' <b>I</b> הקישו באצבע ימין על מקש <font color="#0000ff">rightAttribute</font> עבור פריטים השייכים לקטגוריה צעירים <br/>',
+						' <b>E</b> הקישו באצבע שמאל על מקש <font color="#0000ff">leftAttribute</font> עבור פריטים השייכים לקטגוריה <br/>',
+						' <b>I</b> הקישו באצבע ימין על מקש <font color="#0000ff">rightAttribute</font> עבור פריטים השייכים לקטגוריה <br/>',
 						' אדום יופיע . לחצו על המקש האחר כדי להמשיך <font color="#ff0000"><b>X</b></font> אם תבצעו טעות'  
 			'<u> השיבו מהר ככל האפשר אך היו מדויקים</u>',
 					'</p>',
@@ -229,7 +229,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instFirstCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
 				'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
