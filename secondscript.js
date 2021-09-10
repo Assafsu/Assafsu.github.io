@@ -143,7 +143,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
 			'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות ' +
-			'Press the other key to continue.<p/>',
+			'<p> לחצו על המקש האחר כדי להמשיך<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
 			'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות ' +
@@ -178,7 +178,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			// leftCategory, rightCategory, leftAttribute and rightAttribute, blockNum, nBlocks.
 			// Notice that this is HTML text.
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>סיבוב blockNum מ nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'<b>E</b> הקישו באצבע שמאל על מקש <font color="#0000ff">leftAttribute.</font> עבור פריטים ששייכים לקטגוריה זקנים' +
 				'<br/> <b>I</b> הקישו באצבע ימין על מקש <font color="#0000ff">rightAttribute</font> עבור פריטים ששייכים לקטגוריה צעירים<br/><br/>' +
@@ -189,20 +189,21 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePracticeTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>סיבוב blockNum מ nBlocks</u>',
+						'<u>חלק blockNum מתוך nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
 						' <b>E</b> הקישו באצבע שמאל על מקש <font color="#0000ff">leftAttribute</font> עבור פריטים השייכים לקטגוריה זקנים<br/>',
 						' <b>I</b> הקישו באצבע ימין על מקש <font color="#0000ff">rightAttribute</font> עבור פריטים השייכים לקטגוריה צעירים <br/>',
-						' אדום יופיע . לחצו על המקש האחר כדי להמשיך <font color="#ff0000"><b>X</b></font> אם תבצעו טעות  <u> השיבו מהר ככל האפשר אך היו מדויקים</u>',
+						' אדום יופיע . לחצו על המקש האחר כדי להמשיך <font color="#ff0000"><b>X</b></font> אם תבצעו טעות'  
+			'<u> השיבו מהר ככל האפשר אך היו מדויקים</u>',
 					'</p>',
 					'<p align="center">לחצו למטה על האזור הירוק כדי להתחיל</p>',
 				'</div>'
 			].join('\n'),
 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>סיבוב blockNum מ nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'  <b>E</b> הקישו באצבע שמאל על מקש <font color="#336600">leftCategory</font>עבור פריטים השייכים לקטגוריה' +
 				'<br/> <b>I</b> הקישו באצבע ימין על מקש <font color="#336600">rightCategory</font> עבור פריטים השייכים לקטגוריה<br/>' +
@@ -213,7 +214,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instCategoriesPracticeTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>סיבוב blockNum מ nBlocks</u>',
+						'<u>חלק blockNum מתוך nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
