@@ -202,12 +202,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>סיבו blockNum מ nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>סיבוב blockNum מ nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'  <b>E</b> הקישו באצבע שמאל על מקש <font color="#336600">leftCategory</font>עבור פריטים השייכים לקטגוריה' +
 				'<br/> <b>I</b> הקישו באצבע ימין על מקש <font color="#336600">rightCategory</font> עבור פריטים השייכים לקטגוריה<br/>' +
-				'אדום יופיע<font color="#ff0000"><b>X</b></font>אם תבצעו טעות' +
-				'לחצו על המקש האחר כדי להמשיך<br/>' +
+				' לחצו על המקש האחר כדי להמשיך<br/> אדום יופיע<font color="#ff0000"><b>X</b></font>אם תבצעו טעות' +
+				'' +
 				'<u>השיבו מהר ככל האפשר אך היו מדויקים<br/><br/></p>'+
 				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</font></p></div>',
 			instCategoriesPracticeTouch: [
