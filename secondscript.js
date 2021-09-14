@@ -195,7 +195,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'<br/>',
 						' <b>E</b> הקישו באצבע שמאל על מקש <font color="#0000ff">leftAttribute</font> עבור פריטים השייכים לקטגוריה <br/>',
 						' <b>I</b> הקישו באצבע ימין על מקש <font color="#0000ff">rightAttribute</font> עבור פריטים השייכים לקטגוריה <br/>',
-						' אדום יופיע . לחצו על המקש האחר כדי להמשיך <font color="#ff0000"><b>X</b></font> אם תבצעו טעות'  
+						' אדום יופיע . לחצו על המקש האחר כדי להמשיך <font color="#ff0000"><b>X</b></font> אם תבצעו טעות',  
 			'<u> השיבו מהר ככל האפשר אך היו מדויקים</u>',
 					'</p>',
 					'<p align="center">לחצו למטה על האזור הירוק כדי להתחיל</p>',
