@@ -178,7 +178,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			// leftCategory, rightCategory, leftAttribute and rightAttribute, blockNum, nBlocks.
 			// Notice that this is HTML text.
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
+			'<font color="#000000">במשימה הבאה, תתבקשו למיין מילים ותמונות לקבוצות'
+			'המשימה הזו דורשת מכם למיין פריטים, מהר ככל האפשר, אבל עם כמה שפחות טעויות'
+			'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'<b>E</b> הקישו באצבע שמאל על מקש <font color="#0000ff">leftAttribute.</font> עבור פריטים ששייכים לקטגוריה זקנים' +
 				'<br/> <b>I</b> הקישו באצבע ימין על מקש <font color="#0000ff">rightAttribute</font> עבור פריטים ששייכים לקטגוריה צעירים<br/><br/>' +
