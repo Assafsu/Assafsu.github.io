@@ -180,7 +180,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'<b>E</b> הקישו באצבע שמאל על מקש <font color="#0000ff">leftAttribute.</font> עבור פריטים ששייכים לקטגוריה זקנים' +
+				'<b>E</b> הקישו באצבע שמאל על מקש <font color="#0000ff">leftAttribute.</font> AAAעבור פריטים ששייכים לקטגוריה זקנים' +
 				'<br/> <b>I</b> הקישו באצבע ימין על מקש <font color="#0000ff">rightAttribute</font> עבור פריטים ששייכים לקטגוריה צעירים<br/><br/>' +
 				' אדום יופיע. לחצו על המקש האחר כדי להמשיך <font color="#ff0000"><b>X</b></font> אם תבצעו טעות' +
 				'<br/>' +
@@ -204,11 +204,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
-				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-			'<font color="#000000">במשימה הבאה, תתבקשו למיין מילים ותמונות לקבוצות' +
-			'המשימה הזו דורשת מכם למיין פריטים, מהר ככל האפשר, אבל עם כמה שפחות טעויות' +	
+				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +	
 			'  <b>E</b> הקישו באצבע שמאל על מקש <font color="#336600">leftCategory</font> עבור פריטים השייכים לקטגוריה' +
-				'<br/> <b>I</b> הקישו באצבע ימין על מקש <font color="#336600">rightCategory</font> עבור פריטים השייכים לקטגוריה<br/>' +
+				'<br/> <b>I</b> הקישו באצבע ימין על מקש <font color="#336600">rightCategory</font> BBB עבור פריטים השייכים לקטגוריה<br/>' +
 				' אדום יופיע. לחצו על המקש האחר כדי להמשיך<font color="#ff0000"><b>X</b></font>אם תבצעו טעות' +
 				'' +
 				'<u>השיבו מהר ככל האפשר אך היו מדויקים<br/><br/></p>'+
@@ -260,7 +258,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'This is the same as the previous part.<br/>' +
-				'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
+				'Use the <b>E</b> key for <font color="#336600">leftCategory DDD </font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
 				'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
 				'Each item belongs to only one category.<br/><br/>' +
 				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
@@ -285,7 +283,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'<b>Watch out, the labels have changed position!</b><br/>' +
-				'Put the left finger on the <b>E</b> key for <font color="#336600">leftCategory</font>.<br/>' +
+				'Put the left finger on the <b>E</b> key for EEE <font color="#336600">leftCategory</font>.<br/>' +
 				'Put the right finger on the <b>I</b> key for <font color="#336600">rightCategory</font>.<br/><br/>' +
 				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
