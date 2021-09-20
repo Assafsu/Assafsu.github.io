@@ -181,10 +181,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 ' <b>E</b> הקישו באצבע שמאל על מקש <br/> ' +
-			'עבור פריטים ששייכים לקטגוריה<font color="#0000ff">leftAttribute.</font><br/>' +
+			'עבור פריטים ששייכים לקטגוריה <font color="#0000ff">leftAttribute</font><br/>' +
 			' <br/>' +
 				'<b>I</b> הקישו באצבע ימין על מקש <br/>' + 
-				'עבור פריטים ששייכים לקטגוריה<font color="#0000ff">rightAttribute</font><br/>' +
+				'עבור פריטים ששייכים לקטגוריה <font color="#0000ff">rightAttribute</font><br/>' +
 			' <br/>' +
 			'אם תבצעו טעות, <font color="#ff0000"><b>X</b></font> אדום יופיע<br/> '+
 			'לחצו על המקש האחר כדי להמשיך<br/>' +	
