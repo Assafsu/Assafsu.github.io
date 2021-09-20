@@ -205,7 +205,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +	
-			'E ו I הניחו את האצבע המורה של כל יד על המקשים'
+			'E ו I הניחו את האצבע המורה של כל יד על המקשים' +
 			'  <b>E</b> הקישו באצבע שמאל על  מקש <font color="#336600">leftCategory</font> עבור פריטים השייכים לקטגוריה' +
 				'<br/> <b>I</b> הקישו באצבע ימין על מקש <font color="#336600">rightCategory</font> עבור פריטים השייכים לקטגוריה<br/>' +
 			'אם תבצעו טעות, <font color="#ff0000"><b>X</b></font> אדום יופיע<br/> '+	
