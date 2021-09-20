@@ -70,9 +70,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute1 :
 			{
-				name : 'מילים שליליות',
+				name : 'רע',
 				title : {
-					media : {word : 'מילים שליליות'},
+					media : {word : 'רע'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
@@ -91,9 +91,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute2 :
 			{
-				name : 'מילים חיוביות',
+				name : 'טוב',
 				title : {
-					media : {word : 'מילים חיוביות'},
+					media : {word : 'טוב'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
@@ -186,7 +186,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<b>I</b> הקישו באצבע ימין על מקש <br/>' + 
 				'עבור פריטים ששייכים לקטגוריה <font color="#0000ff">rightAttribute</font><br/>' +
 			' <br/>' +
-			'אם תבצעו טעות, <font color="#ff0000"><b>X</b></font> אדום יופיע<br/> '+
+			' אדום יופיע <font color="#ff0000"><b>X</b></font> ,אם תבצעו טעות<br/> '+	
 			'לחצו על המקש האחר כדי להמשיך<br/>' +	
 			'<u>השיבו מהר ככל שאפשר אך היו מדויקים</u><br/><br/></p>'+
 				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להתחיל</font></p></div>',
