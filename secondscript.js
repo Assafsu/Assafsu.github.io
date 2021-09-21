@@ -241,14 +241,19 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instFirstCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
-				'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
-				'Each item belongs to only one category.<br/><br/>' +
-				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
-				'Press the other key to continue.<br/>' + 
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
-			instFirstCombinedTouch:[
+			'בסיבוב הבא כל ארבע הקטגוריות מופיעות ביחד<br/>' + 	
+			' <br/>' +
+			'כאשר המילה או התמונה מתאימה לאחת משתי הקטגוריות שמופיעות בצד שמאל של המסך<br/>' + 
+			'<b>E</b> הקישו על מקש <font color="#336600">leftCategory</font> או <font color="#0000ff">leftAttribute</font>.<br/>' +
+			' <br/>' +
+			'כאשר המילה או התמונה מתאימה לאחת משתי הקטגוריות שמופיעות בצד ימין של המסך<br/>' +
+			'<b>I</b> הקישו על מקש <font color="#336600">rightCategory</font> או  <font color="#0000ff">rightAttribute</font>.<br/>' +
+			' <br/>' +	
+			'חשוב להבין כל מילה או תמונה מתאימה רק לקטגוריה אחת מבין הארבע<br/><br/>' +
+			' <br/>' +
+			' אדום יופיע <font color="#ff0000"><b>X</b></font> ,אם תבצעו טעות<br/> '+	
+			'לחצו על המקש האחר כדי להמשיך<br/>' +
+						instFirstCombinedTouch:[
 				'<div>',
 					'<p align="center">',
 						'<u>Part blockNum of nBlocks</u>',
