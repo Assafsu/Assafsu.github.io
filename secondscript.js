@@ -253,6 +253,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			' <br/>' +
 			' אדום יופיע <font color="#ff0000"><b>X</b></font> ,אם תבצעו טעות<br/> '+	
 			'לחצו על המקש האחר כדי להמשיך<br/>' +
+			'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</font></p></div>',
 						instFirstCombinedTouch:[
 				'<div>',
 					'<p align="center">',
