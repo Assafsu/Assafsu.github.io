@@ -243,13 +243,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 			'בסיבוב הבא כל ארבע הקטגוריות מופיעות ביחד<br/>' + 	
 			' <br/>' +
-			'הקישו באצבע שמאל על מקש <b>E</b><br/>' + 
-			'עבור פריטים השייכים לקטגוריה <font color="#336600">leftCategory</font> או עבור פריטים ששיכים לקטגוריה <font color="#0000ff">leftAttribute</font><br/>' +
+			' <b>E</b> הקישו באצבע שמאל על מקש <br/>' + 
+			'עבור פריטים השייכים לקטגוריה <font color="#336600">leftCategory</font> או עבור פריטים השייכים לקטגוריה <font color="#0000ff">leftAttribute</font><br/>' +
 			' <br/>' +
-			'כאשר המילה או התמונה מתאימה לאחת משתי הקטגוריות שמופיעות בצד ימין של המסך<br/>' +
-			'<b>I</b> הקישו על מקש <font color="#336600">rightCategory</font> או  <font color="#0000ff">rightAttribute</font>.<br/>' +
+			'<b>I</b> הקישו באצבע שמאל על מקש <br/>' +
+			'עבור פריטים השייכים לקטגוריה <font color="#336600">rightCategory</font> או עבור פריטים השייכים לקטגוריה <font color="#0000ff">rightAttribute</font><br/>' +
 			' <br/>' +	
-			'חשוב להבין כל מילה או תמונה מתאימה רק לקטגוריה אחת מבין הארבע<br/><br/>' +
+			'חשוב להבין: כל מילה או תמונה מתאימה רק לקטגוריה אחת מבין הארבע<br/><br/>' +
 			' <br/>' +
 			' אדום יופיע <font color="#ff0000"><b>X</b></font> ,אם תבצעו טעות<br/> '+	
 			'לחצו על המקש האחר כדי להמשיך<br/>' +
