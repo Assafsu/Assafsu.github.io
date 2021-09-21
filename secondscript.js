@@ -299,12 +299,16 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instSwitchCategories : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'<b>Watch out, the labels have changed position!</b><br/>' +
-				'Put the left finger on the <b>E</b> key for EEE <font color="#336600">leftCategory</font>.<br/>' +
-				'Put the right finger on the <b>I</b> key for <font color="#336600">rightCategory</font>.<br/><br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
-			instSwitchCategoriesTouch: [
+				'<b>שימו לב! הקטגוריות החליפו מיקום</b><br/>' +
+			' <br/>' +
+			' <b>E</b> הקישו באצבע שמאל על מקש <br/>' +
+				'עבור פריטים ששייכים לקטגוריה <font color="#336600">leftCategory</font><br/>' +
+			' <br/>' +
+				 ' <b>I</b> הקישו באצבע ימין על מקש <br/> ' +
+				'עבור פריטים השייכים לקטגוריה <font color="#336600">rightCategory</font><br/><br/>' +
+				'<u>השיבו מהר ככל האפשר אך היו מדויקים<br/><br/></p>' +
+			'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</font></p></div>',
+							instSwitchCategoriesTouch: [
 				'<div>',
 					'<p align="center">',
 						'<u>Part blockNum of nBlocks</u>',
