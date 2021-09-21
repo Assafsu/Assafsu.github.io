@@ -243,8 +243,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 			'בסיבוב הבא כל ארבע הקטגוריות מופיעות ביחד<br/>' + 	
 			' <br/>' +
-			'כאשר המילה או התמונה מתאימה לאחת משתי הקטגוריות שמופיעות בצד שמאל של המסך<br/>' + 
-			'<b>E</b> הקישו על מקש <font color="#336600">leftCategory</font> או <font color="#0000ff">leftAttribute</font>.<br/>' +
+			'הקישו באצבע שמאל על מקש <b>E</b><br/>' + 
+			'עבור פריטים השייכים לקטגוריה <font color="#336600">leftCategory</font> או עבור פריטים ששיכים לקטגוריה <font color="#0000ff">leftAttribute</font><br/>' +
 			' <br/>' +
 			'כאשר המילה או התמונה מתאימה לאחת משתי הקטגוריות שמופיעות בצד ימין של המסך<br/>' +
 			'<b>I</b> הקישו על מקש <font color="#336600">rightCategory</font> או  <font color="#0000ff">rightAttribute</font>.<br/>' +
