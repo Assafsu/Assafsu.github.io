@@ -63,12 +63,12 @@ define(['pipAPI', 'https://assafsu.github.io/biatsecond.js'], function(APIConstr
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					 {image : 'yf1.jpg'}, 
-    			{image : 'yf2.jpg'}, 
-    			{image : 'yf3.jpg'}, 
-    			{image : 'ym1.jpg'}, 
-    			{image : 'ym2.jpg'}, 
-    			{image : 'ym3.jpg'}	
+					{image : 'black1.jpg'}, 
+        			{image : 'black2.jpg'}, 
+        			{image : 'black3.jpg'}, 
+        			{image : 'black4.jpg'}, 
+        			{image : 'black5.jpg'}, 
+        			{image : 'black6.jpg'}	
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
@@ -86,12 +86,12 @@ define(['pipAPI', 'https://assafsu.github.io/biatsecond.js'], function(APIConstr
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{image : 'yf1.jpg'}, 
-        			{image : 'yf4.jpg'}, 
-        			{image : 'yf5.jpg'}, 
-        			{image : 'ym2.jpg'}, 
-        			{image : 'ym3.jpg'}, 
-        			{image : 'ym5.jpg'}
+					 {image : 'yf1.jpg'}, 
+    			{image : 'yf2.jpg'}, 
+    			{image : 'yf3.jpg'}, 
+    			{image : 'ym1.jpg'}, 
+    			{image : 'ym2.jpg'}, 
+    			{image : 'ym3.jpg'}	
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
