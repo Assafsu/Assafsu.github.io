@@ -63,12 +63,12 @@ define(['pipAPI', 'https://assafsu.github.io/biatsecond.js'], function(APIConstr
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{image : 'black1.jpg'}, 
-        			{image : 'black2.jpg'}, 
-        			{image : 'black3.jpg'}, 
-        			{image : 'black4.jpg'}, 
-        			{image : 'black5.jpg'}, 
-        			{image : 'black6.jpg'}	
+					{image : 'of1.jpg'}, 
+        			{image : 'of2.jpg'}, 
+        			{image : 'of3.jpg'}, 
+        			{image : 'om1.jpg'}, 
+        			{image : 'om2.jpg'}, 
+        			{image : 'om3.jpg'}	
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
