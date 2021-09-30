@@ -34,16 +34,16 @@ define(['pipAPI', 'https://assafsu.github.io/biatsecond.js'], function(APIConstr
 					css : {color:'#31b404','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Pigeons, Swans, Crows, Ravens'}, 
+						media : {word : 'יונים, ברבורים, עורבים, דרורים'}, 
 						css : {color:'#31b404','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Pigeons'}, 
-					{word : 'Swans'}, 
-					{word : 'Crows'}, 
-					{word : 'Ravens'}
+					{word : 'יונים'}, 
+					{word : 'ברבורים'}, 
+					{word : 'עורבים'}, 
+					{word : 'דרורים'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#31b404','font-size':'2em'}
@@ -59,7 +59,7 @@ define(['pipAPI', 'https://assafsu.github.io/biatsecond.js'], function(APIConstr
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
 						media : {image : 'Olds.jpg'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
-							height : 2
+							height : 1
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
