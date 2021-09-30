@@ -20,6 +20,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 	Run the task in order to learn about the name of these variables, when they are saved at the explicit table.
 	
 	Created by: Yoav Bar-Anan (baranan@gmail.com).
+	Modified by: Gal Maimon
 	**/
 
 	function iatExtension(options)
@@ -43,85 +44,93 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			}, 
 			practiceCategory1 : 
 			{
-				name : 'יונקים', //Will appear in the data.
+				name : 'Mammals', //Will appear in the data.
 				title : {
-					media : {word : 'יונקים'}, //Name of the category presented in the task.
+					media : {word : 'Mammals'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 					height : 4, //Height (because we need to know where to put the next item in the title)
 					startStimulus : { 
 					//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {word : 'כלבים, סוסים, פרות, אריות'}, 
+						media : {word : 'Dogs, Horses, Cows, Lions'}, 
 						css : {color:'#31b404','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'כלבים'}, 
-					{word : 'סוסים'}, 
-					{word : 'אריות'}, 
-					{word : 'פרות'}
+					{word : 'Dogs'}, 
+					{word : 'Horses'}, 
+					{word : 'Lions'}, 
+					{word : 'Cows'}
 				], 
 				//Stimulus css (style of the stimuli)
 				stimulusCss : {color:'#31b404','font-size':'2em'}
 			},	
 			practiceCategory2 : 
 			{
-				name : 'ציפורים', 
+				name : 'Birds', 
 				title : {
-					media : {word : 'ציפורים'}, 
+					media : {word : 'Birds'}, 
 					css : {color:'#31b404','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'יונים, ברבורים, עורבים, דרורים'}, 
+						media : {word : 'Pigeons, Swans, Crows, Ravens'}, 
 						css : {color:'#31b404','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'יונים'}, 
-					{word : 'ברבורים'}, 
-					{word : 'עורבים'}, 
-					{word : 'דרורים'}
+					{word : 'Pigeons'}, 
+					{word : 'Swans'}, 
+					{word : 'Crows'}, 
+					{word : 'Ravens'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#31b404','font-size':'2em'}
 			},
 			categories : [  //As many categories you need.
 				{
-					name : 'category1', //Will appear in the data.
+					name : 'Black people', //Will appear in the data.
 					title : {
-						media : {word : 'Category1'}, //Name of the category presented in the task.
+						media : {word : 'Black people'}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-							media : {word : 'cat1A, cat1B'}, 
+							media : {word : 'Tyron, Malik, Terrell, Jazmin, Tiara, Shanice'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 2
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-						{word : 'cat1A'}, 
-						{word : 'cat1B'}
+                    {word: 'Tyron'},
+					{word: 'Malik'},
+					{word: 'Terrell'},
+					{word: 'Jazmin'},
+					{word: 'Tiara'},
+					{word: 'Shanice'}
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'category2', 
+					name : 'White people', 
 					title : {
-						media : {word : 'Category2'}, 
+						media : {word : 'White people'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {word : 'cat2A, cat2B'}, 
+							media : {word : 'Jake, Connor, Bradley, Alison,Emma, Emily'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 2
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-						{word : 'cat2A'}, 
-						{word : 'cat2B'}
+                    {word: 'Jake'},
+					{word: 'Connor'},
+					{word: 'Bradley'},
+					{word: 'Allison'},
+					{word: 'Emma'},
+					{word: 'Emily'}
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
@@ -129,47 +138,50 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			],
 			attribute1 : 
 			{
-				name : 'נעים', 
+				name : 'Pleasant', 
 				title : {
-					media : {word : 'נעים'}, 
+					media : {word : 'Pleasant'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'אושר ,אהבה, שמחה, טוב'}, 
+						media : {word : 'Joy, Love, Happy, Good'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'אושר'}, 
-					{word : 'אהבה'}, 
-					{word : 'שמחה'}, 
-					{word : 'טוב'}
+					{word : 'Joy'}, 
+					{word : 'Love'}, 
+					{word : 'Happy'}, 
+					{word : 'Good'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'}
 			},	
 			attribute2 : 
 			{
-				name : 'לא נעים', 
+				name : 'Unpleasant', 
 				title : {
-					media : {word : 'לא נעים'}, 
+					media : {word : 'Unpleasant'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'נורא, מרושע, דוחה, רע'}, 
+						media : {word : 'Horrible, Evil, Nasty, Bad'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'נורא'}, 
-					{word : 'דוחה'}, 
-					{word : 'רע'}, 
-					{word : 'מרושע'}
+					{word : 'Horrible'}, 
+					{word : 'Nasty'}, 
+					{word : 'Bad'}, 
+					{word : 'Evil'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'} 
+			},
+			base_url : {//Where are your images at?
+			image : 'https://baranan.github.io/minno-tasks/images/'
 			},
 
 			//practiceTrials are a few trials at the beginning of the task (Sriram & Greenwald recommend 2 trials for each category).
@@ -223,9 +235,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 	        remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
 			'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
 			'Touch the other side to continue.<p/>',				
-			base_url : {//Where are your images?
-				image : '/implicit/user/yba/pipexample/biat/images/'
-			}, 
+			
 			ITIDuration : 250, //Duration between trials.
             fontColor : '#000000', //The default color used for printed messages.
 			
@@ -258,8 +268,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
-				'<font color="#00cccc">focalAtt</font>, ' + 
-				'and for items that belong to the category <font color="#00cccc">focalCat</font>.<br/>' + 
+				'<font color="#0000FF">focalAtt</font>, ' + 
+				'and for items that belong to the category <font color="#31b404">focalCat</font>.<br/>' + 
 				'Put a left finger on the <b>E</b> key for items that do not belong to these categories.<br/><br/>' + 
 				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
 				'Press the other key to continue.<br/><br/>' + 
@@ -268,8 +278,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'<br/><font color="#000000"><u>Part blockNum of nBlocks </u><br/></p>' + 
 				'<p align="left" style="margin-left:5px"> ' +
 				'Put a right finger on the <b>right</b> green area for items that belong to the category ' + 
-				'<font color="#00cccc">focalAtt</font>, ' + 
-				'and for items that belong to the category <font color="#00cccc">focalCat</font>.<br/>' + 
+				'<font color="#0000FF">focalAtt</font>, ' + 
+				'and for items that belong to the category <font color="#31b404">focalCat</font>.<br/>' + 
 				'Put a left finger on the <b>left</b> green area for items that do not belong to these categories.<br/>' + 
 				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
 				'Press the other key to continue.<br/>' + 
@@ -300,7 +310,116 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 		};
 		
 		// extend the current object with the default
-		_.defaults(piCurrent, options, batObj);
+		_.extend(piCurrent, _.defaults(options, batObj));
+		_.extend(API.script.settings, options.settings);
+		
+        /**
+        **** For Qualtrics
+        */
+        API.addSettings('onEnd', window.minnoJS.onEnd);
+
+		//For debugging the logger
+		//window.minnoJS.logger = console.log;
+		//window.minnoJS.onEnd = console.log;
+		
+        API.addSettings('logger', {
+            // gather logs in array
+            onRow: function(logName, log, settings, ctx){
+                if (!ctx.logs) ctx.logs = [];
+                ctx.logs.push(log);
+            },
+            // onEnd trigger save (by returning a value)
+            onEnd: function(name, settings, ctx){
+                return ctx.logs;
+            },
+            // Transform logs into a string
+            // we save as CSV because qualtrics limits to 20K characters and this is more efficient.
+            serialize: function (name, logs) {
+                var headers = ['block', 'trial', 'cond', 'type', 'cat',  'stim', 'resp', 'err', 'rt', 'fb'];
+                //console.log(logs);
+                var myLogs = [];
+                var iLog;
+                for (iLog = 0; iLog < logs.length; iLog++)
+                {
+					
+                    if(!hasProperties(logs[iLog], ['trial_id', 'name', 'responseHandle', 'stimuli', 'media', 'latency'])){
+                        //console.log('---MISSING PROPERTIY---');
+                        //console.log(logs[iLog]);
+                        //console.log('---MISSING PROPERTIY---');
+                    }
+                    else if(!hasProperties(logs[iLog].data, ['block', 'condition', 'score']))
+                    {
+                        //console.log('---MISSING data PROPERTIY---');
+                        //console.log(logs[iLog].data);
+                        //console.log('---MISSING data PROPERTIY---');
+                    }
+                    else
+                    {
+                        myLogs.push(logs[iLog]);
+                    }
+                }
+                var content = myLogs.map(function (log) { 
+                    return [
+                        log.data.block, //'block'
+                        log.trial_id, //'trial'
+                        log.data.condition, //'cond'
+                        log.name, //'type'
+                        log.stimuli[0], //'cat'
+                        log.media[0], //'stim'
+                        log.responseHandle, //'resp'
+                        log.data.score, //'err'
+                        log.latency, //'rt'
+                        '' //'fb'
+                       
+                        ]; });
+                //console.log('mapped');
+                //Add a line with the feedback, score and block-order condition
+                content.push([
+                            9, //'block'
+                            999, //'trial'
+                            'end', //'cond'
+                       //     '', //'comp'
+                            '', //'type'
+                            '', //'cat'
+                            '', //'stim'
+                            '', //'resp'
+                            '', //'err'
+                            '', //'rt'
+                           
+                            piCurrent.feedback //'fb'
+                           
+                        ]);
+                //console.log('added');
+                        
+                content.unshift(headers);
+                return toCsv(content);
+
+                function hasProperties(obj, props) {
+                    var iProp;
+                    for (iProp = 0; iProp < props.length; iProp++)
+                    {
+                        if (!obj.hasOwnProperty(props[iProp]))
+                        {
+                            //console.log('missing ' + props[iProp]);
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                function toCsv(matrice) { return matrice.map(buildRow).join('\n'); }
+                function buildRow(arr) { return arr.map(normalize).join(','); }
+                // wrap in double quotes and escape inner double quotes
+                function normalize(val) {
+                    var quotableRgx = /(\n|,|")/;
+                    if (quotableRgx.test(val)) return '"' + val.replace(/"/g, '""') + '"';
+                    return val;
+                }
+            },
+            // Set logs into an input (i.e. put them wherever you want)
+            send: function(name, serialized){
+                window.minnoJS.logger(serialized);
+            }
+        });
 	// are we on the touch version
 		var isTouch = piCurrent.isTouch;
 		//We use the attribute names a lot, so let's read them here
@@ -393,7 +512,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			// generic instructions trial, to be inherited by all other inroduction trials
 			{
 				// set block as generic so we can inherit it later
-				data: {blockStart:true},
+				data: {blockStart:true, condition:'instructions', score:0, block:0},
 
 				// create user interface (just click to move on...)
 				input: [
@@ -1075,8 +1194,17 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				minRT : 400, //Not below this latency
 				maxRT : 2000, //Not above this
 				errorLatency : {use:"latency", penalty:600, useForSTD:true},
-				postSettings : {url:"/implicit/scorer"}
+				postSettings : {score: "score", msg:"feeedback", url:"/implicit/scorer"}
 			});
+
+		// function getFB(inText, categoryA, categoryB)
+		// {
+		// 	var retText = inText.replace(/attribute1/g, att1.name);
+		// 	retText = retText.replace(/attribute2/g, att2.name);
+		// 	retText = retText.replace(/categoryA/g, categoryA);
+		// 	retText = retText.replace(/categoryB/g, categoryB);
+		// 	return retText;
+		// }
 
 			
 			var scoreObj = {	
@@ -1084,8 +1212,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 					{ cut:'-0.65', message:piCurrent.fb_strongAssociationForCatWithAtt2}, 
 					{ cut:'-0.35', message:piCurrent.fb_moderateAssociationForCatWithAtt2 },
 					{ cut:'-0.15', message:piCurrent.fb_slightAssociationForCatWithAtt2 },
-					{ cut:'0.15', message:piCurrent.fb_equalAssociationForCatWithAtts },
-					{ cut:'0.35', message:piCurrent.fb_slightAssociationForCatWithAtt1 },
+					{ cut:'0.15', message:piCurrent.fb_equalAssociationForCatWithAtts},
+					{ cut:'0.35', message:piCurrent.fb_slightAssociationForCatWithAtt1},
 					{ cut:'0.65', message:piCurrent.fb_moderateAssociationForCatWithAtt1 },
 					{ cut:'105', message:piCurrent.fb_strongAssociationForCatWithAtt1 }
 				],
@@ -1189,9 +1317,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				}
 				scoreObj.feedback = scoreObj[cats[0].name + '-versus-' + cats[1].name+ '_FB'];
 				
-				API.save(scoreObj);
-				piCurrent.batScoreObj = scoreObj;
+				//API.save(scoreObj);
+				//piCurrent.batScoreObj = scoreObj;
 				piCurrent.feedback = scoreObj.feedback;
+				window.minnoJS.onEnd();
+
 			}
 		});
 		
