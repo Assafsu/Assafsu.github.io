@@ -79,10 +79,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Pigeons'}, 
-					{word : 'Swans'}, 
-					{word : 'Crows'}, 
-					{word : 'Ravens'}
+					{word : 'יונים'}, 
+					{word : 'ברבורים'}, 
+					{word : 'עורבים'}, 
+					{word : 'דרורים'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#31b404','font-size':'2em'}
@@ -230,8 +230,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			errorBottom : 5, 
 			
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' + 
-			'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
-			'Press the other key to continue.<p/>',
+			'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות ' +
+			'<p> לחצו על המקש האחר כדי להמשיך<p/>',	
 	        remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
 			'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות ' +
 			'<p> לחצו על המקש האחר כדי להמשיך<p/>',				
