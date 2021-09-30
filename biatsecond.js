@@ -138,22 +138,22 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			],
 			attribute1 : 
 			{
-				name : 'Pleasant', 
+				name : 'נעים', 
 				title : {
-					media : {word : 'Pleasant'}, 
+					media : {word : 'נעים'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Joy, Love, Happy, Good'}, 
+						media : {word : 'אושר, אהבה, שמחה, טוב'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Joy'}, 
-					{word : 'Love'}, 
-					{word : 'Happy'}, 
-					{word : 'Good'}
+					{word : 'אושר'}, 
+					{word : 'אהבה'}, 
+					{word : 'שמחה'}, 
+					{word : 'טוב'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'}
