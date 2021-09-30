@@ -160,22 +160,22 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			},	
 			attribute2 : 
 			{
-				name : 'Unpleasant', 
+				name : 'לא נעים', 
 				title : {
-					media : {word : 'Unpleasant'}, 
+					media : {word : 'לא נעים'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Horrible, Evil, Nasty, Bad'}, 
+						media : {word : 'נורא, מרושע, דוחה, רע'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Horrible'}, 
-					{word : 'Nasty'}, 
-					{word : 'Bad'}, 
-					{word : 'Evil'}
+					{word : 'נורא'}, 
+					{word : 'דוחה'}, 
+					{word : 'רע'}, 
+					{word : 'מרושע'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'} 
