@@ -89,9 +89,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			},
 			categories : [  //As many categories you need.
 				{
-					name : 'Black people', //Will appear in the data.
+					name : 'זקנים', //Will appear in the data.
 					title : {
-						media : {word : 'Black people'}, //Name of the category presented in the task.
+						media : {word : 'זקנים'}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
@@ -113,9 +113,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'White people', 
+					name : 'צעירים', 
 					title : {
-						media : {word : 'White people'}, 
+						media : {word : 'צעירים'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
