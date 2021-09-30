@@ -757,7 +757,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			{
 				layout = layout.concat([
 					{location:{top:1+ (params.focalCatTitle.height | 3)},
-						media:{word:'and'}, css:{color:'#000000','font-size':'1.8em'}}, 
+						media:{word:'וגם'}, css:{color:'#000000','font-size':'1.8em'}}, 
 					{location:{top:7 + (params.focalCatTitle.height | 3)}, 
 					media : params.focalAttTitle.media, css: params.focalAttTitle.css}
 				]); 
