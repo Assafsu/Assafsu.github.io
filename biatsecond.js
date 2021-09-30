@@ -242,16 +242,16 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			//Text and style for key instructions displayed about the category labels.
 			leftKeyText : 'לכל השאר "E" מקש', 
 			rightKeyText : 'אם הפריט שייך "I" מקש', 
-			keysCss : {'font-size':'0.8em', 'font-family':'courier', color:'#000000'},
+			keysCss : {'font-size':'1.1em', 'font-family':'courier', color:'#000000'},
 			rightKeyTextTouch : 'Left for all else', 
 			leftKeyTextTouch : 'Right if item belongs', 
 			//Text and style for the separator between the top and bottom category labels.
-			orText : 'or', 
+			orText : 'או', 
 			orCss : {'font-size':'1.8em', color:'#000000'},
 			
 			instWidth : 99, //The width of the instructions stimulus
 			
-			finalText : 'Press space to continue to the next task', 
+			finalText : 'לחצו על מקש הרווח בכדי להמשיך למטלה הבאה', 
 			finalTouchText : 'Touch the bottom green area to continue to the next task',
 
 			touchMaxStimulusWidth : '50%', 
@@ -265,12 +265,17 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			// blockNum, nBlocks, focalAtt, focalCat.
 			// Notice that this is HTML code.
 			instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/>' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
+				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
-				'<font color="#0000FF">focalAtt</font>, ' + 
-				'and for items that belong to the category <font color="#31b404">focalCat</font>.<br/>' + 
-				'Put a left finger on the <b>E</b> key for items that do not belong to these categories.<br/><br/>' + 
+			' E ו I הניחו את האצבע המורה של כל יד על המקשים<br/>' +
+			' <br/>' +	
+			 ' <b>I</b> הקישו באצבע ימין על מקש <br/> ' +
+			'עבור פריטים ששייכים לקטגוריה <font color="#0000FF">focalAtt</font>'+
+			' <br/>' +
+				'ועבור פריטים השייכים לקטגוריה <font color="#31b404">focalCat</font>.<br/>' + 
+			' <br/>' +
+			'<b>E</b> הקישו באצבע שמאל על מקש <br/> ' + 
+			'עבור פריטים שאינם מתאימים לקטגוריות האלה<br/><br/>' + 
 				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
 				'Press the other key to continue.<br/><br/>' + 
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
