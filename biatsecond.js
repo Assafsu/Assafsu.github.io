@@ -233,8 +233,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
 			'Press the other key to continue.<p/>',
 	        remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
-			'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
-			'Touch the other side to continue.<p/>',				
+			'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות ' +
+			'<p> לחצו על המקש האחר כדי להמשיך<p/>',				
 			
 			ITIDuration : 250, //Duration between trials.
             fontColor : '#000000', //The default color used for printed messages.
