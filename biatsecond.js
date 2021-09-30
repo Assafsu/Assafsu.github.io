@@ -242,7 +242,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			//Text and style for key instructions displayed about the category labels.
 			leftKeyText : 'לכל השאר "E" מקש', 
 			rightKeyText : 'אם הפריט שייך "I" מקש', 
-			keysCss : {'font-size':'1.1em', 'font-family':'courier', color:'#000000'},
+			keysCss : {'font-size':'1.0em', 'font-family':'courier', color:'#000000'},
 			rightKeyTextTouch : 'Left for all else', 
 			leftKeyTextTouch : 'Right if item belongs', 
 			//Text and style for the separator between the top and bottom category labels.
@@ -272,13 +272,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			 ' <b>I</b> הקישו באצבע ימין על מקש <br/> ' +
 			'עבור פריטים ששייכים לקטגוריה <font color="#0000FF">focalAtt</font>'+
 			' <br/>' +
-				'ועבור פריטים השייכים לקטגוריה <font color="#31b404">focalCat</font>.<br/>' + 
+				'ועבור פריטים השייכים לקטגוריה <font color="#31b404">focalCat</font><br/>' + 
 			' <br/>' +
 			'<b>E</b> הקישו באצבע שמאל על מקש <br/> ' + 
 			'עבור פריטים שאינם מתאימים לקטגוריות האלה<br/><br/>' + 
-				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
-				'Press the other key to continue.<br/><br/>' + 
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
+				' אדום יופיע <font color="#ff0000"><b>X</b></font> ,אם תבצעו טעות<br/> '+	
+			'לחצו על המקש האחר כדי להמשיך<br/>' +
+				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</font></p></div>', 
             instTemplateTouch: '<div><p align="center" ' +
 				'<br/><font color="#000000"><u>Part blockNum of nBlocks </u><br/></p>' + 
 				'<p align="left" style="margin-left:5px"> ' +
