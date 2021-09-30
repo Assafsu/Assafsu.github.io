@@ -240,8 +240,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
             fontColor : '#000000', //The default color used for printed messages.
 			
 			//Text and style for key instructions displayed about the category labels.
-			leftKeyText : '"E" for all else', 
-			rightKeyText : '"I" if item belongs', 
+			leftKeyText : 'לכל השאר "E" מקש', 
+			rightKeyText : 'אם הפריט שייך "I" מקש', 
 			keysCss : {'font-size':'0.8em', 'font-family':'courier', color:'#000000'},
 			rightKeyTextTouch : 'Left for all else', 
 			leftKeyTextTouch : 'Right if item belongs', 
