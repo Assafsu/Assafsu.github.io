@@ -59,7 +59,7 @@ define(['pipAPI', 'https://assafsu.github.io/biatsecond.js'], function(APIConstr
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
 						media : {image : 'Olds.jpg'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
-							height : 1
+							height : 3
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
