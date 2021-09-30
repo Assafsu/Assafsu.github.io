@@ -50,14 +50,14 @@ define(['pipAPI', 'https://assafsu.github.io/biatsecond.js'], function(APIConstr
 			},
 			categories : [  //As many categories you need.
 				{
-					name : 'Black People', //Will appear in the data.
+					name : 'זקנים', //Will appear in the data.
 					title : {
-						media : {word : 'Black People'}, //Name of the category presented in the task.
+						media : {word : 'זקנים'}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {image : 'of1.jpg'}, 
+						media : {image : 'Olds.jpg'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 2
 						}
@@ -74,13 +74,13 @@ define(['pipAPI', 'https://assafsu.github.io/biatsecond.js'], function(APIConstr
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'White people', 
+					name : 'צעירים', 
 					title : {
-						media : {word : 'White people'}, 
+						media : {word : 'צעירים'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {image : 'yf1.jpg'},  
+							media : {image : 'Youngs.jpg'},  
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 2
 						}
