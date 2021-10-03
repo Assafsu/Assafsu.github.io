@@ -749,7 +749,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 						media:{word:'וגם'}, css:{color:'#000000','font-size':'1.8em'}}, 
 					{location:{top:7 + 1 + (params.focalCatTitle.height | 3) + (params.focalCatTitle.startStimulus.height | 3)}, 
 					media : params.focalAttTitle.media, css: params.focalAttTitle.css},
-					{location:{top:6 + 1 + (params.focalCatTitle.height | 1) + (params.focalCatTitle.startStimulus.height | 3) + (params.focalAttTitle.height | 1)}, 
+					{location:{top:6 + 1 + (params.focalCatTitle.height | 7) + (params.focalCatTitle.startStimulus.height | 3) + (params.focalAttTitle.height | 9)}, 
 					media : params.focalAttTitle.startStimulus.media, css: params.focalAttTitle.startStimulus.css}
 				]); 
 			}
