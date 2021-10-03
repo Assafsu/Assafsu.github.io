@@ -745,9 +745,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				layout = layout.concat([				
 					{location:{top:1 + (params.focalCatTitle.height | 5)},
 						media:params.focalCatTitle.startStimulus.media, css:params.focalCatTitle.startStimulus.css}, 
-					{location:{top:1 + (params.focalCatTitle.height | 3) + (params.focalCatTitle.startStimulus.height | 3)},
+					{location:{top:1 + (params.focalCatTitle.height | 4) + (params.focalCatTitle.startStimulus.height | 5)},
 						media:{word:'וגם'}, css:{color:'#000000','font-size':'1.8em'}}, 
-					{location:{top:5 + 1 + (params.focalCatTitle.height | 5) + (params.focalCatTitle.startStimulus.height | 5)}, 
+					{location:{top:5 + 1 + (params.focalCatTitle.height | 3) + (params.focalCatTitle.startStimulus.height | 5)}, 
 					media : params.focalAttTitle.media, css: params.focalAttTitle.css},
 					{location:{top:5 + 1 + (params.focalCatTitle.height | 7) + (params.focalCatTitle.startStimulus.height | 4) + (params.focalAttTitle.height | 7)}, 
 					media : params.focalAttTitle.startStimulus.media, css: params.focalAttTitle.startStimulus.css}
