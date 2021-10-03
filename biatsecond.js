@@ -198,7 +198,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			nTrialsPerMiniBlock : 16, //50% on the right, 50% left, 50% attributes, 50% categories.
 
 			//Sets whether we use a certain focal attribute throughout the task, or both.
-			focalAttribute : 'attribute1', // Accepts 'attribute1', 'attribute2' or 'both', 
+			focalAttribute : 'both', // Accepts 'attribute1', 'attribute2' or 'both', 
 
 			//Sets what attribute appears first. Irrelevant if focalAttributes is not 'both'. 
 			firstFocalAttribute : 'random', //Accepts 'attribute1', 'attribute2' or 'random'. 
