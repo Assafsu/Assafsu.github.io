@@ -743,7 +743,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			if (params.showStimuliWithInst && params.isInst)
 			{//Show the starting stimuli with the instructions' layout.
 				layout = layout.concat([				
-					{location:{top:1 + (params.focalCatTitle.height | 5)},
+					{location:{top:6 + (params.focalCatTitle.height | 5)},
 						media:params.focalCatTitle.startStimulus.media, css:params.focalCatTitle.startStimulus.css}, 
 					{location:{top:5 + (params.focalCatTitle.height | 5) + (params.focalCatTitle.startStimulus.height | 2)},
 						media:{word:'וגם'}, css:{color:'#000000','font-size':'1.8em'}}, 
