@@ -208,7 +208,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			nPracticeBlockTrials : 8, //Should be at least 8 trials.
 
 			//Number of blocks per focal category-attribute combination.
-			nCategoryAttributeBlocks : 4, 
+			nCategoryAttributeBlocks : 2, 
 
 			//Whether to switch the focal attribute only once in the task (after all the blocks with the first focal attribute), 
 			//Or after every exhaustion of all the category-attribute combinations (e.g., twice if nCategoryAttributeBlocks).
