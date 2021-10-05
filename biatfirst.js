@@ -5,9 +5,9 @@ define(['pipAPI', 'https://assafsu.github.io/biatsecond.js'], function(APIConstr
 	return iatExtension({
 		practiceCategory1 : 
 			{
-				name : 'נעלים', //Will appear in the data.
+				name : 'בגדים', //Will appear in the data.
 				title : {
-					media : {word : 'נעלים'}, //Name of the category presented in the task.
+					media : {word : 'בגדים'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 					height : 4, //Height (because we need to know where to put the next item in the title)
 					startStimulus : { 
