@@ -278,8 +278,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			'עבור פריטים שאינם מתאימים לקטגוריות האלה<br/>' + 
 			' <br/>' +
 				' <p>אם תבצעו טעות <font color="#ff0000"><b>X</b></font> אדום יופיע </p>'+	
-			'<p>לחצו על המקש האחר כדי להמשיך</p><br/>' +
-				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</font></p></div>', 
+			'<p>לחצו על המקש האחר כדי להמשיך</p>' +
+				'<p align="center"><u>לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</u></font></p></div>', 
             instTemplateTouch: '<div><p align="center" ' +
 				'<br/><font color="#000000"><u>Part blockNum of nBlocks </u><br/></p>' + 
 				'<p align="left" style="margin-left:5px"> ' +
