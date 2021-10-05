@@ -267,14 +267,14 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/>' +
 				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-			'<p>הניחו את האצבע המורה של כל יד על המקשים I ו E </p><br/>' +
+			'הניחו את האצבע המורה של כל יד על המקשים I ו E <br/>' +
 			' <br/>' +	
-			 '<p>הקישו באצבע ימין על מקש <b>I</b></p><br/> ' +
-			'<p>עבור פריטים ששייכים לקטגוריה <font color="#0000FF">focalAtt</font></p>'+
+			 'הקישו באצבע ימין על מקש <b>I</b><br/> ' +
+			'עבור פריטים ששייכים לקטגוריה <font color="#0000FF">focalAtt</font>'+
 			' <br/>' +
-				'<p>ועבור פריטים השייכים לקטגוריה <font color="#31b404">focalCat</font></p><br/>' + 
+				'ועבור פריטים השייכים לקטגוריה <font color="#31b404">focalCat</font><br/>' + 
 			' <br/>' +
-			'<p> הקישו באצבע שמאל על מקש <b>E</b></p><br/> ' + 
+			' הקישו באצבע שמאל על מקש <b>E</b><br/> ' + 
 			'עבור פריטים שאינם מתאימים לקטגוריות האלה<br/><br/>' + 
 				' <p>אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות</p><br/> '+	
 			'<p>לחצו על המקש האחר כדי להמשיך</p><br/>' +
