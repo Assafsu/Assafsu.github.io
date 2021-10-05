@@ -265,7 +265,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			// blockNum, nBlocks, focalAtt, focalCat.
 			// Notice that this is HTML code.
 			instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/>' +
-				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/><br/></p>' + 
+				'<font color="#000000"><u>חלק blockNum מתוך nBlocks </u><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 			'הניחו את האצבע המורה של כל יד על המקשים I ו E <br/>' +
 			' <br/>' +	
@@ -275,8 +275,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'ועבור פריטים השייכים לקטגוריה <font color="#31b404">focalCat</font><br/>' + 
 			' <br/>' +
 			' הקישו באצבע שמאל על מקש <b>E</b><br/> ' + 
-			'עבור פריטים שאינם מתאימים לקטגוריות האלה<br/><br/>' + 
-				' <p>אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות</p>'+	
+			'עבור פריטים שאינם מתאימים לקטגוריות האלה<br/>' + 
+				' <p>אם תבצעו טעות <font color="#ff0000"><b>X</b></font>אדום יופיע </p>'+	
 			'<p>לחצו על המקש האחר כדי להמשיך</p><br/>' +
 				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</font></p></div>', 
             instTemplateTouch: '<div><p align="center" ' +
