@@ -269,13 +269,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 			'הניחו את האצבע המורה של כל יד על המקשים I ו E <br/>' +
 			' <br/>' +	
-			 'הקישו באצבע ימין על מקש <b>I</b><br/> ' +
-			'עבור פריטים ששייכים לקטגוריה <font color="#0000FF">focalAtt</font>'+
+			 '                                   הקישו באצבע ימין על מקש <b>I</b><br/> ' +
+			'                     עבור פריטים ששייכים לקטגוריה <font color="#0000FF">focalAtt</font>'+
 			' <br/>' +
-				'ועבור פריטים השייכים לקטגוריה <font color="#31b404">focalCat</font><br/>' + 
+				'                       ועבור פריטים השייכים לקטגוריה <font color="#31b404">focalCat</font><br/>' + 
 			' <br/>' +
-			' הקישו באצבע שמאל על מקש <b>E</b><br/> ' + 
-			'עבור פריטים שאינם מתאימים לקטגוריות האלה<br/>' + 
+			'                              הקישו באצבע שמאל על מקש <b>E</b><br/> ' + 
+			'           עבור פריטים שאינם מתאימים לקטגוריות האלה<br/>' + 
 				' <p>אם תבצעו טעות <font color="#ff0000"><b>X</b></font>אדום יופיע </p>'+	
 			'<p>לחצו על המקש האחר כדי להמשיך</p><br/>' +
 				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</font></p></div>', 
