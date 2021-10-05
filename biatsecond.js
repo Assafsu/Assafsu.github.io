@@ -270,7 +270,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			'הניחו את האצבע המורה של כל יד על המקשים I ו E <br/>' +
 			' <br/>' +	
 			 'הקישו באצבע ימין על מקש <b>I</b><br/> ' +
-			'                     עבור פריטים ששייכים לקטגוריה <font color="#0000FF">focalAtt</font>'+
+			'                     עבור פריטיםם ששייכים לקטגוריה <font color="#0000FF">focalAtt</font>'+
 			' <br/>' +
 				'                       ועבור פריטים השייכים לקטגוריה <font color="#31b404">focalCat</font><br/>' + 
 			' <br/>' +
