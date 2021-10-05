@@ -276,7 +276,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			' <br/>' +
 			' הקישו באצבע שמאל על מקש <b>E</b><br/> ' + 
 			'עבור פריטים שאינם מתאימים לקטגוריות האלה<br/><br/>' + 
-				' <p>אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות</p><br/> '+	
+				' <p>אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות</p>'+	
 			'<p>לחצו על המקש האחר כדי להמשיך</p><br/>' +
 				'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להמשיך</font></p></div>', 
             instTemplateTouch: '<div><p align="center" ' +
