@@ -46,21 +46,21 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			{
 				name : 'יונקים', //Will appear in the data.
 				title : {
-					media : {word : 'יונקים'}, //Name of the category presented in the task.
+					media : {word : 'בגדים'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 					height : 4, //Height (because we need to know where to put the next item in the title)
 					startStimulus : { 
 					//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {word : 'כלבים, סוסים, פרות, אריות'}, 
+						media : {word : 'מעיל, סוודר, טי שירט, גופיה'}, 
 						css : {color:'#31b404','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'כלבים'}, 
-					{word : 'סוסים'}, 
-					{word : 'אריות'}, 
-					{word : 'פרות'}
+					{word : 'מעיל'}, 
+					{word : 'סוודר'}, 
+					{word : 'טי שירט'}, 
+					{word : 'גופיה'}
 				], 
 				//Stimulus css (style of the stimuli)
 				stimulusCss : {color:'#31b404','font-size':'2em'}
@@ -79,10 +79,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'יונים'}, 
-					{word : 'ברבורים'}, 
-					{word : 'עורבים'}, 
-					{word : 'דרורים'}
+					{word : 'כפכפים'}, 
+					{word : 'סנדלים'}, 
+					{word : 'מגפיים'}, 
+					{word : 'נעלי ספורט'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#31b404','font-size':'2em'}
