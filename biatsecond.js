@@ -229,10 +229,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			//Location of the error feedback (from the bottom)
 			errorBottom : 5, 
 			
-			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' + 
-			'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות ' +
+			remindErrorText : '<p align="center" style="font-size:"1.5em"; font-family:arial">' + 
+			'אם תבצעו טעות <font color="#ff0000"><b>X</b></font> אדום יופיע ' +
 			'<p> לחצו על המקש האחר כדי להמשיך<p/>',	
-	        remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
+	        remindErrorTextTouch : '<p align="center" style="font-size:"1.8em"; font-family:arial">' +
 			'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות ' +
 			'<p> לחצו על המקש האחר כדי להמשיך<p/>',				
 			
@@ -240,7 +240,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
             fontColor : '#000000', //The default color used for printed messages.
 			
 			//Text and style for key instructions displayed about the category labels.
-			leftKeyText : 'לכל השאר "E" מקש', 
+			leftKeyText : 'מקש השאר לכל "E" ', 
 			rightKeyText : 'אם הפריט שייך "I" מקש', 
 			keysCss : {'font-size':'1.0em', 'font-family':'courier', color:'#000000'},
 			rightKeyTextTouch : 'Left for all else', 
