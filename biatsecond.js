@@ -47,12 +47,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				name : 'יונקים', //Will appear in the data.
 				title : {
 					media : {word : 'בגדים'}, //Name of the category presented in the task.
-					css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
+					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4, //Height (because we need to know where to put the next item in the title)
 					startStimulus : { 
 					//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
 						media : {word : 'מעיל, סוודר, טי שירט, גופיה'}, 
-						css : {color:'#31b404','font-size':'1em'}, 
+						css : {color:'#31b404','font-size':'1.5em'}, 
 						height : 2
 					}
 				}, 
@@ -70,11 +70,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				name : 'Birds', 
 				title : {
 					media : {word : 'Birds'}, 
-					css : {color:'#31b404','font-size':'1.8em'}, 
+					css : {color:'#31b404','font-size':'2em'}, 
 					height : 4,
 					startStimulus : {
 						media : {word : 'Pigeons, Swans, Crows, Ravens'}, 
-						css : {color:'#31b404','font-size':'1em'}, 
+						css : {color:'#31b404','font-size':'1.5em'}, 
 						height : 2
 					}
 				}, 
@@ -92,12 +92,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 					name : 'זקנים', //Will appear in the data.
 					title : {
 						media : {word : 'זקנים'}, //Name of the category presented in the task.
-						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
+						css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
 							media : {word : 'Tyron, Malik, Terrell, Jazmin, Tiara, Shanice'}, 
-							css : {color:'#31b404','font-size':'1em'}, 
+							css : {color:'#31b404','font-size':'1.5em'}, 
 							height : 2
 						}
 					}, 
@@ -116,11 +116,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 					name : 'צעירים', 
 					title : {
 						media : {word : 'צעירים'}, 
-						css : {color:'#31b404','font-size':'1.8em'}, 
+						css : {color:'#31b404','font-size':'2em'}, 
 						height : 4,
 						startStimulus : {
 							media : {word : 'Jake, Connor, Bradley, Alison,Emma, Emily'}, 
-							css : {color:'#31b404','font-size':'1em'}, 
+							css : {color:'#31b404','font-size':'1.5em'}, 
 							height : 2
 						}
 					}, 
@@ -141,11 +141,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				name : 'נעים', 
 				title : {
 					media : {word : 'נעים'}, 
-					css : {color:'#0000FF','font-size':'1.8em'}, 
+					css : {color:'#0000FF','font-size':'2em'}, 
 					height : 4,
 					startStimulus : {
 						media : {word : 'אושר, אהבה, שמחה, טוב'}, 
-						css : {color:'#0000FF','font-size':'1em'}, 
+						css : {color:'#0000FF','font-size':'1.5em'}, 
 						height : 2
 					}
 				}, 
@@ -163,11 +163,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				name : 'לא נעים', 
 				title : {
 					media : {word : 'לא נעים'}, 
-					css : {color:'#0000FF','font-size':'1.8em'}, 
+					css : {color:'#0000FF','font-size':'2em'}, 
 					height : 4,
 					startStimulus : {
 						media : {word : 'נורא, מרושע, דוחה, רע'}, 
-						css : {color:'#0000FF','font-size':'1em'}, 
+						css : {color:'#0000FF','font-size':'1.5em'}, 
 						height : 2
 					}
 				}, 
