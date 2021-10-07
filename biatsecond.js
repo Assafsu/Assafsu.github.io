@@ -232,7 +232,6 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			remindErrorText : '<p align="center" style="font-size:"1.5em"; font-family:arial">' + 
 			'אם תבצעו טעות <font color="#ff0000"><b>X</b></font> אדום יופיע ' +
 			'<p>לחצו על המקש האחר כדי להמשיך. I אם לחצתם על E וסומנה שגיאה הקישו<br/><p/>',	
-			'<p>E אם לחצתם על I וסומנה שגיאה הקישו על<p/>',
 	        remindErrorTextTouch : '<p align="center" style="font-size:"1.8em"; font-family:arial">' +
 			'אדום יופיע <font color="#ff0000"><b>X</b></font> אם תבצעו טעות ' +
 			'<p> לחצו על המקש האחר כדי להמשיך<p/>',				
